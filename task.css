@@ -1,0 +1,117 @@
+
+body{
+    background-color: rgb(229, 229, 229);
+    height: 100%;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#head{
+    color: darkgray;
+}
+.left-side{
+    width: 100vh;
+    
+}
+.left-side1{
+    width: 100vh;
+    padding: 5px 5px 15px;
+    background: linear-gradient(to bottom,rgb(65,183,77) 30%,rgb(33,157,141) 70%);
+}
+.main-head{
+    /* height: 15vh; */
+    
+}
+.main-head h4{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 4vh;
+    padding: 2vh;
+    margin-top: 0;
+}
+.main-head p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2vh;
+    position: relative;
+    bottom: 5vh;
+}
+.main-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 35vh;
+    height: 30vh;
+}
+.newzealand{
+    width: 35vh;
+    height: 20vh;
+}
+.square{
+    width: 35vh;
+    height:  30vh;
+}
+.triangle{
+    width: 40vh;
+    height: 30vh;
+}
+.main-image1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* Right Sidee */
+#modal{
+    color: darkgrey;
+}
+.right-side{
+    width: 100vh;
+    
+}
+.right-side1{
+    width: 100vh;
+    background: linear-gradient(to bottom,rgb(65,183,77) 30%,rgb(33,157,141) 70%);
+    padding: 0 0 35px 0;
+}
+.main-head1{
+    height: 10vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;    
+}
+.main-head1 h4{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    margin-top: 7vh;    
+}
+.main-head1 img{
+   position: absolute;
+   width: 4vh;
+   height: 4vh;
+   right: 4vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 0 35px;
+}
+.content img{
+    height: 45vh;
+    margin-top: 5vh;
+}
